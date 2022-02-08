@@ -1,0 +1,19 @@
+/* utils */
+
+.flex-r-w{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex{
+    display: flex;
+}
+.space-evenly{
+    justify-content: space-evenly;
+}
+.card-image-img{
+    width: 70%;
+    height: 100%;
+}
+.card-image{
+    
+}
