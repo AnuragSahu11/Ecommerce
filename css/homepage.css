@@ -37,22 +37,12 @@
   border: 9px solid var(--blue);
   border-radius: 50px;
   width: 100%;
+  overflow: hidden;
   height: 45rem;
 }
 
-/* utils  */
 
-.card-horizontal {
-  width: auto;
-}
-.scale-1:hover {
-  transition: 0.3s;
-  transform: scale(1.15);
-}
-.card-image-img {
-  width: 100%;
-  height: auto;
-}
-.width-80 {
-  width: 80%;
+/* utils  */
+.has-transparent{
+  background-color: transparent;
 }
