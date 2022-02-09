@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://lucid-ui.netlify.app/main.css" />
+    <link rel="stylesheet" href="cart.css" />
+    <title>Wishlist</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar li-shadow">
+      <div class="nav-brand">
+        <a href="" class="logo-a">
+          <i class="fas fa-suitcase"></i>
+        </a>
+      </div>
+      <div class="nav-hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="nav-menu">
+        <div class="nav-start">
+          <a href="" class="nav-item link">Home</a>
+          <a href="" class="nav-item link">Product</a>
+          <a href="" class="nav-item link">About Us</a>
+          <a href="" class="nav-item link">Contact Us</a>
+        </div>
+        <div class="nav-end">
+          <div class="form-div nav-search m-x-3">
+            <i class="fas fa-search is-blue"></i>
+            <input type="text" class="form-input br-3" placeholder="search" />
+          </div>
+          <button class="btn-icon nav-icons m-x-1">
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+          <button class="btn-icon nav-icons m-x-1">
+            <i class="fas fa-bell"></i>
+          </button>
+          <button class="btn-icon nav-icons m-x-1">
+            <i class="fas fa-heart"></i>
+          </button>
+          <button class="btn-secondary nav-btn btn-small">Sign up</button>
+          <button class="btn-primary nav-btn btn-small">Log in</button>
+        </div>
+      </div>
+    </nav>
+    <!-- nav end -->
+    <section class="cart-managment">
+      <div class="title text-center m-up-4 is-5">My Cart</div>
+      <div class="cart m-y-6 p-x-2 grid-2">
+        <div class="card-products m-dw-6 child-m-xl flex-c-w">
+          <div class="card cart-card width-80 center-x card-horizontal shadow">
+            <div class="card-head">
+              <span class="card-icon"><i class="fas fa-heart"></i></span>
+              <span class="card-badge">Top seller</span>
+              <div class="card-image">
+                <img
+                  src="/images/bookstock.webp"
+                  alt="card image"
+                  srcset=""
+                  class="card-image-img "
+                />
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="textbox">
+                <div class="title">Cart Title</div>
+                <div class="subtitle">Subtitle</div>
+              </div>
+              <div class="textbox">
+                <div class="counter-btn-div flex-row align-center">
+                  <button class="btn-counter is-3 bold">-</button
+                  ><input
+                    class="input-counter m-x-1 is-2 p-y-0"
+                    type="number"
+                  /><button class="btn-counter is-3 semibold">+</button>
+                </div>
+                <p class="CTA-text">$376</p>
+              </div>
+              <div class="btn-vertical">
+                <button class="btn-grey btn-small btn-w-icon">
+                  Remove from cart
+                </button>
+                <button class="btn-secondary btn-small">
+                  Move to wishlist
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- 2nd card -->
+          <div class="card cart-card width-80 center-x card-horizontal shadow">
+            <div class="card-head">
+              <span class="card-icon"><i class="fas fa-heart"></i></span>
+              <span class="card-badge">new</span>
+              <div class="card-image">
+                <img
+                  src="/images/bookstock3.webp"
+                  alt="card image"
+                  srcset=""
+                  class="card-image-img"
+                />
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="textbox">
+                <div class="title">Cart Title</div>
+                <div class="subtitle">Subtitle</div>
+              </div>
+              <div class="textbox">
+                <div class="counter-btn-div flex-row align-center">
+                  <button class="btn-counter is-3 bold">-</button
+                  ><input
+                    class="input-counter m-x-1 is-2 p-y-0"
+                    type="number"
+                  /><button class="btn-counter is-3 semibold">+</button>
+                </div>
+
+                <p class="CTA-text">$376</p>
+              </div>
+              <div class="btn-vertical">
+                <button class="btn-grey btn-small btn-w-icon">
+                  Remove from cart
+                </button>
+                <button class="btn-secondary btn-small">
+                  Move to wishlist
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="cart-summary p-x-3 p-dw-3 p-up-3 width-50 li-shadow br-3 center-x"
+        >
+          <div class="textbox">
+            <div class="title m-dw-2">Your Order</div>
+            <hr />
+            <div
+              class="subtitle m-up-1 width-100 flex-row regular space-between"
+            >
+              <p class="m-y-0">Price(2 item)</p>
+              <p class="m-y-0">$1000</p>
+            </div>
+            <div class="subtitle width-100 flex-row regular space-between">
+              <p class="m-y-0">Price(1 item)</p>
+              <p class="m-y-0">$500</p>
+            </div>
+            <div class="subtitle width-100 flex-row regular space-between">
+              <p class="m-y-0">Discount</p>
+              <p class="m-y-0">-$100</p>
+            </div>
+            <div class="subtitle width-100 flex-row regular space-between">
+              <p class="m-y-0">Dilivery Charge</p>
+              <p class="m-y-0">-$50</p>
+            </div>
+            <hr />
+            <div
+              class="subtitle width-100 flex-row space-between is-3 m-y-1 is-dark"
+            >
+              <p class="m-y-0">Total</p>
+              <p class="m-y-0">-$2350</p>
+            </div>
+            <hr />
+            <div
+              class="subtitle width-100 flex-row regular space-between is-dark"
+            >
+              <p class="m-y-0">You will save $150 on this order</p>
+            </div>
+          </div>
+          <button class="btn-primary btn-small m-up-1 width-100 btn-blue">
+            Place order
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
