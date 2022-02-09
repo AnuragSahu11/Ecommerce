@@ -1,0 +1,64 @@
+.cart-summary {
+  height: min-content;
+}
+@media only screen and (max-width: 768px) {
+  .cart-summary {
+    width: 80%;
+  }
+}
+hr {
+  border-top: 1px solid var(--grey);
+}
+.btn-counter {
+
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+  border-radius: var(--border-radius-circle);
+  border: none;
+}
+.input-counter {
+  text-align: center;
+  width: 20px;
+  height: 17px;
+}
+
+/* utils */
+
+.child-m-xl > :nth-child(n + 2) {
+  margin-top: var(--xl);
+}
+.flex-c-w {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.align-center{
+  align-items: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+.width-100 {
+  width: 100%;
+}
+.m-y-0 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.p-y-0{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
