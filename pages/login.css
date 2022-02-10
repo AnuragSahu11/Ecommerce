@@ -1,7 +1,8 @@
-.login,.signup{
-    width: fit-content;
+.login,
+.signup {
+  width: fit-content;
 }
-/* util */ 
-.b-radius{
-    border-radius: var(--border-radius-l);
+/* util */
+.b-radius {
+  border-radius: var(--border-radius-l);
 }
