@@ -56,37 +56,22 @@
         </div>
       </nav>
     </section>
-    <!-- login -->
-    <section class="login-section p-x-1">
-      <div class="login b-radius center-x m-up-6 shadow p-y-2 p-x-4">
-        <div class="textbox">
-          <div class="title">Login</div>
-        </div>
-        <div class="form-div m-up-1">
-          <p class="form-label">Email</p>
-          <input
-            type="text"
-            class="form-input input-focused"
-            placeholder="enter your email id"
-            required
-          />
-          <p class="form-label m-up-2">Password</p>
-          <input
-            type="password"
-            class="form-input input-focused"
-            placeholder="enter your password"
-            required
-          />
-        </div>
-        <label for="" class="m-up-2 form-checkbox">
-          <input type="checkbox" class="" />Remember me
-        </label>
-        <a href="" class="link-secondary m-l-6">Forgot password</a>
-        <div class="btn-vertical m-up-3 center-text">
-          <button class="btn-primary m-dw-1 btn-small">Login</button>
-          <a href="" class="is- link">Create Account</a>
-        </div>
-      </div>
-    </section>
+    <div class="logout m-up-6 ">
+        <div class="modal  center-x center-y shadow">
+            <button class="card-cross btn-close is-medium">
+              <i class="fas fa-times"></i>
+            </button>
+            <i class="modal-icon is-blue fas fa-sign-out-alt"></i>
+            <div class="textbox">
+              <div class="title text-center">Log out</div>
+              <div class="text text-center">
+                Clicking below will log you out of the current device.
+              </div>
+            </div>
+            <div class="btn-horizontal">
+              <button class="btn-grey has-red btn-small">Log out</button>
+            </div>
+          </div>
+    </div>
   </body>
 </html>
