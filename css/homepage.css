@@ -4,7 +4,6 @@
   align-items: center;
   flex-wrap: wrap;
   gap: var(--xs);
-  /* background-color: bisque; */
   width: 100%;
 }
 .category-sub-div {

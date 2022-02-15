@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://lucid-ui.netlify.app/main.css" />
+    <title>Profile</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div class="profile grid-30-70 m-up-4 width-80 center-x">
+        <div class="profile-links m-r-4">
+          <div class="textbox br-2 p-y-2 p-l-2 dk-shadow align-center flex-r-w">
+            <div class="avatar-m">
+              <img src="https://picsum.photos/200" alt="" class="" />
+            </div>
+            <div class="m-l-1">
+              <div class="subtitle is-3">Hello</div>
+              <div class="m-y-0 is-4 title">Anurag Sahu</div>
+            </div>
+          </div>
+          <div class="textbox br-3 m-y-2 p-y-2 flex-col width-100 li-shadow">
+            <div class="title m-l-5 m-y-0">Manage Account</div>
+            <a href="" class="link m-l-5 semibold is-light m-up-1 is-3"
+              ><i class="m-r-1 fa-solid fa-address-book"></i>Manage Address</a
+            >
+            <a href="" class="link m-l-5 semibold is-3 is-light m-up-1"
+              ><i class="m-r-1 fa-solid fa-heart"></i>Wishlist</a
+            >
+            <a href="" class="link m-l-5 semibold is-3 is-light m-up-1"
+              ><i class="m-r-1 fa-solid fa-bag-shopping"></i>Orders</a
+            >
+            <a href="" class="link m-l-5 semibold is-3 is-red m-up-1"
+              ><i class="m-r-1 fa-solid fa-right-from-bracket"></i>Log out</a
+            >
+          </div>
+        </div>
+
+        <div class="profile-info p-l-3 p-dw-4 li-shadow br-3">
+          <div class="form">
+            <div class="subtitle is-dark is-4">Your account information</div>
+            <div class="form-div form-readonly">
+              <p class="form-label">Name</p>
+              <input
+                type="text"
+                class="form-input input-focused"
+                placeholder="Anurag"
+                readonly
+              />
+              <input
+                type="text"
+                class="form-input input-focused m-up-1"
+                placeholder="Sahu"
+                readonly
+              />
+            </div>
+            <div class="form-div">
+              <p class="form-label">Email address</p>
+              <input
+                type="text"
+                class="form-input input-focused"
+                placeholder="example@123.com"
+                readonly
+              />
+            </div>
+            <div class="form-radio">
+              <p class="form-label">Gender</p>
+              <div class="form-radio-div">
+                <label class="form-radio-label m-r-3">
+                  <input type="radio" name="opinion" checked />
+                  <i></i>
+                  <span class="form-radio-button-text">Male</span>
+                </label>
+                <label class="form-radio-label m-r-3">
+                  <input type="radio" name="opinion" />
+                  <i></i>
+                  <span class="form-radio-button-text">Female</span>
+                </label>
+                <label class="form-radio-label m-r-3">
+                  <input type="radio" name="opinion" />
+                  <i></i>
+                  <span class="form-radio-button-text">Non binary</span>
+                </label>
+              </div>
+            </div>
+            <div class="form-div">
+              <p class="form-label">Mobile Number</p>
+              <input
+                type="number"
+                class="form-input input-focused"
+                placeholder="123456789"
+                readonly
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
