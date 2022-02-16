@@ -34,15 +34,13 @@
 }
 
 .hero-grid {
-  border: 9px solid var(--blue);
+  border: 9px solid var(--very-light-blue);
   border-radius: 50px;
   width: 100%;
   overflow: hidden;
   height: 45rem;
 }
-
-
 /* utils  */
-.has-transparent{
+.has-transparent {
   background-color: transparent;
 }
