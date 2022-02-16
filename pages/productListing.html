@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="productListing.css" />
     <title>Product Listing</title>
   </head>
+
   <body>
     <!-- navbar -->
     <nav class="navbar li-shadow">
@@ -16,7 +17,7 @@
           <img
             class="logo-s"
             src="../images/02 - Colorful - Icon Only.png"
-            alt=""
+            alt="Lucid ui logo"
           />
         </a>
       </div>
@@ -54,80 +55,119 @@
     <!-- nav end -->
     <div class="grid-20-80 grid-product-listing width-100">
       <div class="filter-menu p-x-4 p-up-2 dk-shadow flex-c-w">
-        <div class="filter-menu-responsive flex-row align-center space-between "><a href=""><div class="title is-dark">Filters</div></a> <a href="" class="link-secondary m-up-1 is-2">Clear all</a> </div>
+        <div class="filter-menu-responsive flex-row align-center space-between">
+          <a href="">
+            <div class="title is-dark">Filters</div>
+          </a>
+          <a href="" class="link-secondary m-up-1 is-2">Clear all</a>
+        </div>
         <div class="quantity-slider">
-            <div class="title semibold">Price Range</div>
-            <div class="slider-range">
-              <span class="slider-range-min">50</span>
-              <span class="slider-range-mid">150</span>
-              <span class="slider-range-max">200</span>
-            </div>
-            <input type="range" min="1" max="5000" class="slider" />
+          <div class="title semibold">Price Range</div>
+          <div class="slider-range">
+            <span class="slider-range-min">50</span>
+            <span class="slider-range-mid">150</span>
+            <span class="slider-range-max">200</span>
           </div>
-          <div class="list-container">
-            <div class="title semibold">Category</div>
-            <ol class="list list-none">
-                <li class="list-items"><label class="is-light form-checkbox is-2">
-        <input type="checkbox">
-        Stocks
-      </label></li>
-                <li class="list-items"><label class="is-light form-checkbox is-2">
-        <input type="checkbox">
-        Forex
-      </label></li>
-                <li class="list-items"><label class="is-light form-checkbox is-2">
-        <input type="checkbox">
-        Crypto
-      </label></li>
-                <li class="list-items"><label class="is-light form-checkbox is-2">
-        <input type="checkbox">
-        Charting
-      </label></li>
-                <li class="list-items"><label class="is-light form-checkbox is-2">
-        <input type="checkbox">
-        Biography
-      </label></li>
-            </ul>
-        </div><div class="list-container">
-            <div class="title semibold">Rating</div>
-            <ol class="list list-none">
-                <li class="list-items"><label class="form-radio-label">
-                    <input type="radio" name="opinion" checked />
-                    <i></i>
-                    <span class="form-radio-button-text is-2 is-medium">4 Star & above</span>
-                  </label></li>
-                <li class="list-items"><label class="form-radio-label">
-                    <input type="radio" name="opinion" checked />
-                    <i></i>
-                    <span class="form-radio-button-text is-2 is-medium">3 Star & above</span>
-                  </label></li>
-                <li class="list-items"><label class="form-radio-label">
-                    <input type="radio" name="opinion" checked />
-                    <i></i>
-                    <span class="form-radio-button-text is-2 is-medium">2 Star & above</span>
-                  </label></li>
-                <li class="list-items"><label class="form-radio-label">
-                    <input type="radio" name="opinion" checked />
-                    <i></i>
-                    <span class="form-radio-button-text is-2 is-medium">1 Star & above</span>
-                  </label></li>
-            </ul>
+          <input type="range" min="1" max="5000" class="slider" />
         </div>
         <div class="list-container">
-            <div class="title semibold">Sort By</div>
-            <ol class="list list-none">
-                <li class="list-items"><label class="form-radio-label">
-                    <input type="radio" name="sort" checked />
-                    <i></i>
-                    <span class="form-radio-button-text is-light is-2">Price high to low</span>
-                  </label></li>
-                <li class="list-items"><label class="form-radio-label">
-                    <input type="radio" name="sort" checked />
-                    <i></i>
-                    <span class="form-radio-button-text is-light is-2">Price low to high</span>
-                  </label></li>
-                
-            </ul>
+          <div class="title semibold">Category</div>
+          <ol class="list list-none">
+            <li class="list-items">
+              <label class="is-light form-checkbox is-2">
+                <input type="checkbox" />
+                Stocks
+              </label>
+            </li>
+            <li class="list-items">
+              <label class="is-light form-checkbox is-2">
+                <input type="checkbox" />
+                Forex
+              </label>
+            </li>
+            <li class="list-items">
+              <label class="is-light form-checkbox is-2">
+                <input type="checkbox" />
+                Crypto
+              </label>
+            </li>
+            <li class="list-items">
+              <label class="is-light form-checkbox is-2">
+                <input type="checkbox" />
+                Charting
+              </label>
+            </li>
+            <li class="list-items">
+              <label class="is-light form-checkbox is-2">
+                <input type="checkbox" />
+                Biography
+              </label>
+            </li>
+          </ol>
+        </div>
+        <div class="list-container">
+          <div class="title semibold">Rating</div>
+          <ol class="list list-none">
+            <li class="list-items">
+              <label class="form-radio-label">
+                <input type="radio" name="opinion" checked />
+                <i></i>
+                <span class="form-radio-button-text is-2 is-medium"
+                  >4 Star & above</span
+                >
+              </label>
+            </li>
+            <li class="list-items">
+              <label class="form-radio-label">
+                <input type="radio" name="opinion" checked />
+                <i></i>
+                <span class="form-radio-button-text is-2 is-medium"
+                  >3 Star & above</span
+                >
+              </label>
+            </li>
+            <li class="list-items">
+              <label class="form-radio-label">
+                <input type="radio" name="opinion" checked />
+                <i></i>
+                <span class="form-radio-button-text is-2 is-medium"
+                  >2 Star & above</span
+                >
+              </label>
+            </li>
+            <li class="list-items">
+              <label class="form-radio-label">
+                <input type="radio" name="opinion" checked />
+                <i></i>
+                <span class="form-radio-button-text is-2 is-medium"
+                  >1 Star & above</span
+                >
+              </label>
+            </li>
+          </ol>
+        </div>
+        <div class="list-container">
+          <div class="title semibold">Sort By</div>
+          <ol class="list list-none">
+            <li class="list-items">
+              <label class="form-radio-label">
+                <input type="radio" name="sort" checked />
+                <i></i>
+                <span class="form-radio-button-text is-light is-2"
+                  >Price high to low</span
+                >
+              </label>
+            </li>
+            <li class="list-items">
+              <label class="form-radio-label">
+                <input type="radio" name="sort" checked />
+                <i></i>
+                <span class="form-radio-button-text is-light is-2"
+                  >Price low to high</span
+                >
+              </label>
+            </li>
+          </ol>
         </div>
       </div>
       <div class="product-listing p-up-5 space-evenly flex-r-w">

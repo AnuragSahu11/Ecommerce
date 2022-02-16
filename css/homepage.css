@@ -40,12 +40,7 @@
   overflow: hidden;
   height: 45rem;
 }
-.hero-text{
-  
-}
-
-
 /* utils  */
-.has-transparent{
+.has-transparent {
   background-color: transparent;
 }

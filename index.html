@@ -1,247 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://lucid-ui.netlify.app/main.css" />
-    <link rel="stylesheet" href="css/homepage.css" />
-    <title>Homepage</title>
-  </head>
-  <!-- Change css url when over -->
-  <body>
-    <section class="navbar-section">
-      <!-- navbar -->
-      <nav class="navbar li-shadow">
-        <div class="nav-brand">
-          <a href="" class="logo-a">
-            <img
-              class="logo-s"
-              src="images/02 - Colorful - Icon Only.png"
-              alt=""
-            />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://lucid-ui.netlify.app/main.css" />
+  <link rel="stylesheet" href="css/homepage.css" />
+  <title>Homepage</title>
+</head>
+<!-- Change css url when over -->
+
+<body>
+  <section class="navbar-section">
+    <!-- navbar -->
+    <nav class="navbar li-shadow">
+      <div class="nav-brand">
+        <a href="" class="logo-a">
+          <img class="logo-s" src="images/02 - Colorful - Icon Only.png" alt="Lucid logo" />
+        </a>
+      </div>
+      <div class="nav-hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="nav-menu">
+        <div class="nav-start">
+          <a href="" class="nav-item link">Home</a>
+          <a href="pages/productListing.html" class="nav-item link">Shop Now</a>
+        </div>
+        <div class="nav-end">
+          <div class="form-div nav-search m-x-3">
+            <i class="fas fa-search is-blue"></i>
+            <input type="text" class="form-input br-3" placeholder="search" />
+          </div>
+          <a href="pages/cart.html" class=""><button class="btn-icon nav-icons m-x-1">
+              <i class="fas is-dark fa-shopping-cart"></i></button></a>
+          <a href="pages/wishlist.html" class="">
+            <button class="btn-icon nav-icons m-x-1">
+              <i class="fas is-dark fa-heart"></i>
+            </button>
           </a>
+          <a href="pages/logout.html" class="">
+            <button class="btn-icon nav-icons m-x-1">
+              <i class="fas is-dark fa-sign-out-alt"></i>
+            </button>
+          </a>
+          <a href="pages/sign-up.html"><button class="btn-secondary nav-btn btn-small">
+              Sign up
+            </button></a>
+          <a href="pages/login.html"><button class="btn-primary nav-btn btn-small">Log in</button></a>
         </div>
-        <div class="nav-hamburger">
-          <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+  </section>
+  <!-- category -->
+  <section class="category-section">
+    <div class="m-up-6 category-div">
+      <div class="category-sub-div">
+        <div class="scale-1 category-product m-l-1 dk-shadow">
+          <img src="images/stock.png" alt="" class="category-img" />
+          <p class="is-3 m-y-1 m-l-1 semibold category-name">Stock</p>
         </div>
-        <div class="nav-menu">
-          <div class="nav-start">
-            <a href="" class="nav-item link">Home</a>
-            <a href="pages/productListing.html" class="nav-item link">Shop Now</a>
+        <div class="scale-1 category-product m-l-1 dk-shadow">
+          <img src="images/forex.png" alt="" class="category-img" />
+          <p class="is-3 m-y-1 m-l-1 semibold category-name">Forex</p>
+        </div>
+      </div>
+      <div class="category-sub-div">
+        <div class="scale-1 category-product m-l-1 dk-shadow">
+          <img src="images/cryptocurrencies.png" alt="" class="category-img" />
+          <p class="is-3 m-y-1 m-l-1 semibold category-name">Crypto</p>
+        </div>
+        <div class="scale-1 category-product m-l-1 dk-shadow">
+          <img src="images/emotions.png" alt="" class="category-img" />
+          <p class="is-3 m-y-1 m-l-1 semibold category-name">
+            trader psychology
+          </p>
+        </div>
+      </div>
+      <div class="category-sub-div">
+        <div class="scale-1 category-product m-l-1 dk-shadow">
+          <img src="images/analytics.png" alt="" class="category-img" />
+          <p class="is-3 m-y-1 m-l-1 semibold category-name">
+            Chart analysis
+          </p>
+        </div>
+        <div class="scale-1 category-product m-l-1 dk-shadow">
+          <img src="images/biography.png" alt="" class="category-img" />
+          <p class="is-3 m-y-1 m-l-1 semibold category-name">Biography</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- hero -->
+  <section class="hero-section m-up-6 p-x-3">
+    <div class="grid-70-30 m-up-4 hero-grid">
+      <div class="hero-img"></div>
+      <div class="hero-text center-y">
+        <div class="textbox center-text">
+          <div class="title center-text is-blue is-6">
+            Welcome to The <span class="is-6">Lucid</span> Book Sale
           </div>
-          <div class="nav-end">
-            <div class="form-div nav-search m-x-3">
-              <i class="fas fa-search is-blue"></i>
-              <input type="text" class="form-input br-3" placeholder="search" />
+
+          <a href="pages/productListing.html"><button class="btn-primary m-up-2 shadow btn-medium">
+              View Books
+            </button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="product-showcase-homepage p-x-1">
+    <div class="grid-2 product-grid-homepage">
+      <div class="card-one m-x-1 p-l-1 p-y-6">
+        <div class="card has-light-blue card-horizontal dk-shadow">
+          <div class="card-head">
+            <div class="card-image has-transparent">
+              <img src="images/muscle.png" alt="" class="img-responsive card-image-img width-80" />
             </div>
-            <a href="pages/cart.html" class=""
-              ><button class="btn-icon nav-icons m-x-1">
-                <i class="fas is-dark fa-shopping-cart"></i></button
-            ></a>
-            <a href="pages/wishlist.html" class="">
-              <button class="btn-icon nav-icons m-x-1">
-                <i class="fas is-dark fa-heart"></i>
+          </div>
+          <div class="card-body">
+            <div class="textbox">
+              <div class="title">Improve Fundamentals</div>
+              <!-- <div class="subtitle">Subtitle</div> -->
+            </div>
+            <div class="textbox">
+              <p class="text">
+                Lorem ipsum dolor sit amet, consectetur adipisic ingelit.
+                Quia,velit. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+              </p>
+            </div>
+            <a href="pages/productListing.html">
+              <button class="btn-primary m-dw-1 btn-medium shadow btn-w-icon">
+                <i class="fas fa-shopping-cart"></i>View Books
               </button>
             </a>
-            <a href="pages/logout.html" class="">
-              <button class="btn-icon nav-icons m-x-1">
-                <i class="fas is-dark fa-sign-out-alt"></i>
+          </div>
+        </div>
+      </div>
+      <div class="card-two p-r-1 m-x-1 p-y-6">
+        <div class="card has-light-blue card-horizontal dk-shadow">
+          <div class="card-head center-text">
+            <div class="card-image has-transparent">
+              <img class="img-responsive width-80" src="images/bitcoin.png" />
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="textbox">
+              <div class="title">Cryptocurrencies</div>
+              <!-- <div class="subtitle">Subtitle</div> -->
+            </div>
+            <div class="textbox">
+              <p class="text">
+                Lorem ipsum dolor sit amet, consectetur adipisic ingelit.
+                Quia,velit. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+              </p>
+            </div>
+
+            <a href="pages/productListing.html">
+              <button class="btn-primary m-dw-1 btn-medium shadow btn-w-icon">
+                <i class="fas fa-shopping-cart"></i>View Books
               </button>
             </a>
-            <a href="pages/sign-up.html"
-              ><button class="btn-secondary nav-btn btn-small">
-                Sign up
-              </button></a
-            >
-            <a href="pages/login.html"
-              ><button class="btn-primary nav-btn btn-small">Log in</button></a
-            >
-          </div>
-        </div>
-      </nav>
-    </section>
-    <!-- category -->
-    <section class="category-section">
-      <div class="m-up-6 category-div">
-        <div class="category-sub-div">
-          <div class="scale-1 category-product m-l-1 dk-shadow">
-            <img src="images/stock.png" alt="" class="category-img" />
-            <p class="is-3 m-y-1 m-l-1 semibold category-name is-">Stock</p>
-          </div>
-          <div class="scale-1 category-product m-l-1 dk-shadow">
-            <img src="images/forex.png" alt="" class="category-img" />
-            <p class="is-3 m-y-1 m-l-1 semibold category-name is-">Forex</p>
-          </div>
-        </div>
-        <div class="category-sub-div">
-          <div class="scale-1 category-product m-l-1 dk-shadow">
-            <img
-              src="images/cryptocurrencies.png"
-              alt=""
-              class="category-img"
-            />
-            <p class="is-3 m-y-1 m-l-1 semibold category-name is-">Crypto</p>
-          </div>
-          <div class="scale-1 category-product m-l-1 dk-shadow">
-            <img src="images/emotions.png" alt="" class="category-img" />
-            <p class="is-3 m-y-1 m-l-1 semibold category-name is-">
-              trader psychology
-            </p>
-          </div>
-        </div>
-        <div class="category-sub-div">
-          <div class="scale-1 category-product m-l-1 dk-shadow">
-            <img src="images/analytics.png" alt="" class="category-img" />
-            <p class="is-3 m-y-1 m-l-1 semibold category-name is-">
-              Chart analysis
-            </p>
-          </div>
-          <div class="scale-1 category-product m-l-1 dk-shadow">
-            <img src="images/biography.png" alt="" class="category-img" />
-            <p class="is-3 m-y-1 m-l-1 semibold category-name is-">Biography</p>
           </div>
         </div>
       </div>
-    </section>
-    <!-- hero -->
-    <section class="hero-section m-up-6 p-x-3">
-      <div class="grid-70-30 m-up-4 hero-grid">
-        <div class="hero-img"></div>
-        <div class="hero-text center-y">
-          <div class="textbox center-text">
-            <div class="title center-text is-blue is-6">
-              Welcome to The <span class="is-6">Lucid</span> Book Sale
+      <div class="card-two p-l-1 m-x-1 p-dw-6">
+        <div class="card has-light-blue card-horizontal dk-shadow">
+          <div class="card-head center-text">
+            <div class="card-image has-transparent">
+              <img class="img-responsive width-80" src="images/trader.png" />
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="textbox">
+              <div class="title">Learn from Professional</div>
+              <!-- <div class="subtitle">Subtitle</div> -->
+            </div>
+            <div class="textbox">
+              <p class="text">
+                Lorem ipsum dolor sit amet, consectetur adipisic ingelit.
+                Quia,velit. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+              </p>
             </div>
 
-            <a href="pages/productListing.html"
-              ><button class="btn-primary m-up-2 shadow btn-medium">
-                View Books
-              </button></a
-            >
+            <a href="pages/productListing.html">
+              <button class="btn-primary m-dw-1 btn-medium shadow btn-w-icon">
+                <i class="fas fa-shopping-cart"></i>View Books
+              </button>
+            </a>
           </div>
         </div>
       </div>
-    </section>
-    <section class="product-showcase-homepage p-x-1">
-      <div class="grid-2 product-grid-homepage">
-        <div class="card-one m-x-1 p-l-1 p-y-6">
-          <div class="card has-light-blue card-horizontal dk-shadow">
-            <div class="card-head">
-              <div class="card-image has-transparent">
-                <img
-                  src="images/muscle.png"
-                  alt=""
-                  class="img-responsive card-image-img width-80"
-                />
-              </div>
-            </div>
-            <div class="card-body">
-              <div class="textbox">
-                <div class="title">Improve Fundamentals</div>
-                <!-- <div class="subtitle">Subtitle</div> -->
-              </div>
-              <div class="textbox">
-                <p class="text">
-                  Lorem ipsum dolor sit amet, consectetur adipisic ingelit.
-                  Quia,velit. Lorem ipsum dolor sit amet consectetur adipisicing
-                  elit.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                </p>
-              </div>
-              <a href="pages/productListing.html">
-                <button class="btn-primary m-dw-1 btn-medium shadow btn-w-icon">
-                  <i class="fas fa-shopping-cart"></i>View Books
-                </button>
-              </a>
+      <div class="card-two p-r-1 m-x-1 p-dw-6">
+        <div class="card has-light-blue card-horizontal dk-shadow">
+          <div class="card-head center-text">
+            <div class="card-image has-transparent">
+              <img class="img-responsive width-80" src="images/calm.png" />
             </div>
           </div>
-        </div>
-        <div class="card-two p-r-1 m-x-1 p-y-6">
-          <div class="card has-light-blue card-horizontal dk-shadow">
-            <div class="card-head center-text">
-              <div class="card-image has-transparent">
-                <img class="img-responsive width-80" src="images/bitcoin.png" />
-              </div>
+          <div class="card-body">
+            <div class="textbox">
+              <div class="title">Trading Mindset</div>
+              <!-- <div class="subtitle">Subtitle</div> -->
             </div>
-            <div class="card-body">
-              <div class="textbox">
-                <div class="title">Cryptocurrencies</div>
-                <!-- <div class="subtitle">Subtitle</div> -->
-              </div>
-              <div class="textbox">
-                <p class="text">
-                  Lorem ipsum dolor sit amet, consectetur adipisic ingelit.
-                  Quia,velit. Lorem ipsum dolor sit amet consectetur adipisicing
-                  elit.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                </p>
-              </div>
+            <div class="textbox">
+              <p class="text">
+                Lorem ipsum dolor sit amet, consectetur adipisic ingelit.
+                Quia,velit. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+              </p>
+            </div>
 
-              <a href="pages/productListing.html">
-                <button class="btn-primary m-dw-1 btn-medium shadow btn-w-icon">
-                  <i class="fas fa-shopping-cart"></i>View Books
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="card-two p-l-1 m-x-1 p-dw-6">
-          <div class="card has-light-blue card-horizontal dk-shadow">
-            <div class="card-head center-text">
-              <div class="card-image has-transparent">
-                <img class="img-responsive width-80" src="images/trader.png" />
-              </div>
-            </div>
-            <div class="card-body">
-              <div class="textbox">
-                <div class="title">Learn from Professional</div>
-                <!-- <div class="subtitle">Subtitle</div> -->
-              </div>
-              <div class="textbox">
-                <p class="text">
-                  Lorem ipsum dolor sit amet, consectetur adipisic ingelit.
-                  Quia,velit. Lorem ipsum dolor sit amet consectetur adipisicing
-                  elit.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                </p>
-              </div>
-
-              <a href="pages/productListing.html">
-                <button class="btn-primary m-dw-1 btn-medium shadow btn-w-icon">
-                  <i class="fas fa-shopping-cart"></i>View Books
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="card-two p-r-1 m-x-1 p-dw-6">
-          <div class="card has-light-blue card-horizontal dk-shadow">
-            <div class="card-head center-text">
-              <div class="card-image has-transparent">
-                <img class="img-responsive width-80" src="images/calm.png" />
-              </div>
-            </div>
-            <div class="card-body">
-              <div class="textbox">
-                <div class="title">Trading Mindset</div>
-                <!-- <div class="subtitle">Subtitle</div> -->
-              </div>
-              <div class="textbox">
-                <p class="text">
-                  Lorem ipsum dolor sit amet, consectetur adipisic ingelit.
-                  Quia,velit. Lorem ipsum dolor sit amet consectetur adipisicing
-                  elit.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                </p>
-              </div>
-
-              <a href="pages/productListing.html">
-                <button class="btn-primary m-dw-1 btn-medium shadow btn-w-icon">
-                  <i class="fas fa-shopping-cart"></i>View Books
-                </button>
-              </a>
-            </div>
+            <a href="pages/productListing.html">
+              <button class="btn-primary m-dw-1 btn-medium shadow btn-w-icon">
+                <i class="fas fa-shopping-cart"></i>View Books
+              </button>
+            </a>
           </div>
         </div>
       </div>
-    </section>
-    <script src="https://lucid-ui.netlify.app/components/darkmode.js"></script>
-  </body>
+    </div>
+  </section>
+  <script src="https://lucid-ui.netlify.app/components/darkmode.js"></script>
+</body>
+
 </html>
