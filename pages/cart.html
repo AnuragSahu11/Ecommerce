@@ -13,7 +13,11 @@
     <nav class="navbar li-shadow">
       <div class="nav-brand">
         <a href="" class="logo-a">
-          <i class="fas fa-suitcase"></i>
+          <img
+            class="logo-s"
+            src="../images/02 - Colorful - Icon Only.png"
+            alt="Lucid ui logo"
+          />
         </a>
       </div>
       <div class="nav-hamburger">
@@ -21,27 +25,29 @@
       </div>
       <div class="nav-menu">
         <div class="nav-start">
-          <a href="" class="nav-item link">Home</a>
-          <a href="" class="nav-item link">Product</a>
-          <a href="" class="nav-item link">About Us</a>
-          <a href="" class="nav-item link">Contact Us</a>
+          <a href="../index.html" class="nav-item link">Home</a>
+          <a href="productListing.html" class="nav-item link">Shop Now</a>
         </div>
         <div class="nav-end">
           <div class="form-div nav-search m-x-3">
             <i class="fas fa-search is-blue"></i>
             <input type="text" class="form-input br-3" placeholder="search" />
           </div>
-          <button class="btn-icon nav-icons m-x-1">
-            <i class="fas fa-shopping-cart"></i>
-          </button>
-          <button class="btn-icon nav-icons m-x-1">
-            <i class="fas fa-bell"></i>
-          </button>
-          <button class="btn-icon nav-icons m-x-1">
-            <i class="fas fa-heart"></i>
-          </button>
-          <button class="btn-secondary nav-btn btn-small">Sign up</button>
-          <button class="btn-primary nav-btn btn-small">Log in</button>
+          <a href="../pages/cart.html"
+            ><button class="btn-icon nav-icons m-x-1">
+              <i class="fas is-dark fa-shopping-cart"></i></button
+          ></a>
+          <a href="../pages/wishlist.html">
+            <button class="btn-icon nav-icons m-x-1">
+              <i class="fas is-dark fa-heart"></i>
+            </button>
+          </a>
+          <a href="../pages/sign-up.html"
+            ><button class="btn-secondary nav-btn btn-small">Sign up</button></a
+          >
+          <a href="../pages/login.html"
+            ><button class="btn-primary nav-btn btn-small">Log in</button></a
+          >
         </div>
       </div>
     </nav>
@@ -58,15 +64,14 @@
                 <img
                   src="../images/bookstock.webp"
                   alt="card image"
-                  srcset=""
-                  class="card-image-img "
+                  class="card-image-img"
                 />
               </div>
             </div>
             <div class="card-body">
               <div class="textbox">
-                <div class="title">Cart Title</div>
-                <div class="subtitle">Subtitle</div>
+                <div class="title">Stock Market Investing for Beginners</div>
+                <div class="subtitle">Stock</div>
               </div>
               <div class="textbox">
                 <div class="counter-btn-div flex-row align-center">
@@ -76,7 +81,7 @@
                     type="number"
                   /><button class="btn-counter is-3 semibold">+</button>
                 </div>
-                <p class="CTA-text">$376</p>
+                <p class="CTA-text">$300</p>
               </div>
               <div class="btn-vertical m-dw-1">
                 <button class="btn-grey btn-small btn-w-icon">
@@ -122,7 +127,7 @@
                 <button class="btn-grey btn-small btn-w-icon">
                   Remove from cart
                 </button>
-                <button class="btn-secondary  btn-small">
+                <button class="btn-secondary btn-small">
                   Move to wishlist
                 </button>
               </div>
@@ -173,5 +178,6 @@
         </div>
       </div>
     </section>
+    <script src="https://lucid-ui.netlify.app/components/darkmode.js"></script>
   </body>
 </html>
