@@ -39,7 +39,18 @@
   overflow: hidden;
   height: 45rem;
 }
-/* utils  */
-.has-transparent {
-  background-color: transparent;
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  box-sizing: Border-box;
+}
+
+@media only screen and (max-width: 780px) {
+  .grid-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }

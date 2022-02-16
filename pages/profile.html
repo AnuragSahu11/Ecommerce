@@ -8,7 +8,52 @@
     <title>Profile</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <!-- navbar -->
+      <nav class="navbar li-shadow">
+        <div class="nav-brand">
+          <a href="" class="logo-a">
+            <img
+              class="logo-s"
+              src="../images/02 - Colorful - Icon Only.png"
+              alt="Lucid ui logo"
+            />
+          </a>
+        </div>
+        <div class="nav-hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+        <div class="nav-menu">
+          <div class="nav-start">
+            <a href="../index.html" class="nav-item link">Home</a>
+            <a href="" class="nav-item link">Shop Now</a>
+          </div>
+          <div class="nav-end">
+            <div class="form-div nav-search m-x-3">
+              <i class="fas fa-search is-blue"></i>
+              <input type="text" class="form-input br-3" placeholder="search" />
+            </div>
+            <a href="../pages/cart.html" class=""
+              ><button class="btn-icon nav-icons m-x-1">
+                <i class="fas is-dark fa-shopping-cart"></i></button
+            ></a>
+            <a href="../pages/wishlist.html" class="">
+              <button class="btn-icon nav-icons m-x-1">
+                <i class="fas is-dark fa-heart"></i>
+              </button>
+            </a>
+            <a href="../pages/sign-up.html"
+              ><button class="btn-secondary nav-btn btn-small">
+                Sign up
+              </button></a
+            >
+            <a href="../pages/login.html"
+              ><button class="btn-primary nav-btn btn-small">Log in</button></a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
     <main>
       <div class="profile grid-30-70 m-up-4 width-80 center-x">
         <div class="profile-links m-r-4">
@@ -22,17 +67,17 @@
             </div>
           </div>
           <div class="textbox br-3 m-y-2 p-y-2 flex-col width-100 li-shadow">
-            <div class="title m-l-5 m-y-0">Manage Account</div>
-            <a href="" class="link m-l-5 semibold is-light m-up-1 is-3"
+            <div class="title semibold m-l-5 m-y-0">Manage Account</div>
+            <a href="address.html" class="link m-l-5 semibold is-light m-up-1 is-3"
               ><i class="m-r-1 fa-solid fa-address-book"></i>Manage Address</a
             >
-            <a href="" class="link m-l-5 semibold is-3 is-light m-up-1"
+            <a href="wishlist.html" class="link m-l-5 semibold is-3 is-light m-up-1"
               ><i class="m-r-1 fa-solid fa-heart"></i>Wishlist</a
             >
-            <a href="" class="link m-l-5 semibold is-3 is-light m-up-1"
+            <a href="orders.html" class="link m-l-5 semibold is-3 is-light m-up-1"
               ><i class="m-r-1 fa-solid fa-bag-shopping"></i>Orders</a
             >
-            <a href="" class="link m-l-5 semibold is-3 is-red m-up-1"
+            <a href="logout.html" class="link m-l-5 semibold is-3 is-red m-up-1"
               ><i class="m-r-1 fa-solid fa-right-from-bracket"></i>Log out</a
             >
           </div>
@@ -40,7 +85,9 @@
 
         <div class="profile-info p-l-3 p-dw-4 li-shadow br-3">
           <div class="form">
-            <div class="subtitle is-dark is-4">Your account information</div>
+            <div class="subtitle semibold is-dark is-4">
+              Your account information
+            </div>
             <div class="form-div form-readonly">
               <p class="form-label">Name</p>
               <input
@@ -59,7 +106,7 @@
             <div class="form-div">
               <p class="form-label">Email address</p>
               <input
-                type="text"
+                type="email"
                 class="form-input input-focused"
                 placeholder="example@123.com"
                 readonly
