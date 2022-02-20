@@ -2,17 +2,10 @@
   position: relative;
 }
 .filter-menu {
-  /* height: 100vh; */
   left: 0;
   top: 0;
   position: sticky;
-  gap: 25px;
-}
-.responsive-search-input{
-  height: var(--l);
-  border-radius: var(--border-radius-l);
-  border: var(--border) solid var(--grey);
-  margin: 15px auto;
+  gap: var(--m);
 }
 @media only screen and (max-width: 788px) {
   .filter-menu {
