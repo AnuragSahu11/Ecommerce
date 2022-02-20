@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://lucid-ui.netlify.app/main.css" />
-    <link rel="stylesheet" href="wishlist.css" />
     <title>Wishlist</title>
   </head>
   <body>
@@ -22,6 +21,7 @@
         </a>
       </div>
       <div class="nav-hamburger">
+        <i class="dark-mode fas m-r-2 fas fa-moon"></i>
         <i class="fas fa-bars"></i>
       </div>
       <div class="nav-menu">
@@ -34,6 +34,9 @@
             <i class="fas fa-search is-blue"></i>
             <input type="text" class="form-input br-3" placeholder="search" />
           </div>
+          <button class="dark-mode btn-icon is-dark nav-icons m-x-1">
+            <i class="fas is-dark fa-moon"></i>
+          </button>
           <a href="../pages/cart.html" class=""
             ><button class="btn-icon nav-icons m-x-1">
               <i class="fas is-dark fa-shopping-cart"></i></button
@@ -41,6 +44,16 @@
           <a href="../pages/wishlist.html" class="">
             <button class="btn-icon nav-icons m-x-1">
               <i class="fas is-dark fa-heart"></i>
+            </button>
+          </a>
+          <a href="logout.html" class="">
+            <button class="btn-icon nav-icons m-x-1">
+              <i class="fas is-dark fa-sign-out-alt"></i>
+            </button>
+          </a>
+          <a href="profile.html" class="">
+            <button class="btn-icon nav-icons m-x-1">
+              <i class="fa-solid is-dark fa-user"></i>
             </button>
           </a>
           <a href="../pages/sign-up.html"
@@ -58,7 +71,7 @@
           <div class="title bold is-5 center-text">Wishlist</div>
         </div>
         <div class="wishlist-cards flex-r-w space-evenly">
-          <div class="card m-dw-5 shadow">
+          <div class="card elevated m-dw-5 shadow">
             <div class="card-head">
               <button class="card-cross btn-close is-medium">
                 <i class="fas fa-times"></i>
@@ -87,13 +100,13 @@
               </div>
               <div class="btn-vertical">
                 <button class="btn-primary btn-w-icon btn-small">
-                  <i class="fas fa-shopping-cart"></i>Buy Now
+                  <i class="fas fa-shopping-cart"></i>Add to Cart
                 </button>
               </div>
             </div>
           </div>
           <!-- comment -->
-          <div class="card m-dw-5 shadow">
+          <div class="card elevated m-dw-5 shadow">
             <div class="card-head">
               <button class="card-cross btn-close is-medium">
                 <i class="fas fa-times"></i>
@@ -125,13 +138,13 @@
               </div>
               <div class="btn-vertical">
                 <button class="btn-primary btn-w-icon btn-small">
-                  <i class="fas fa-shopping-cart"></i>Buy Now
+                  <i class="fas fa-shopping-cart"></i>Add to Cart
                 </button>
               </div>
             </div>
           </div>
           <!-- comment -->
-          <div class="card m-dw-5 shadow">
+          <div class="card elevated m-dw-5 shadow">
             <div class="card-head">
               <button class="card-cross btn-close is-medium">
                 <i class="fas fa-times"></i>
@@ -163,13 +176,13 @@
               </div>
               <div class="btn-vertical">
                 <button class="btn-primary btn-w-icon btn-small">
-                  <i class="fas fa-shopping-cart"></i>Buy Now
+                  <i class="fas fa-shopping-cart"></i>Add to Cart
                 </button>
               </div>
             </div>
           </div>
           <!-- comment -->
-          <div class="card m-dw-5 shadow">
+          <div class="card elevated m-dw-5 shadow">
             <div class="card-head">
               <button class="card-cross btn-close is-medium">
                 <i class="fas fa-times"></i>
@@ -201,13 +214,13 @@
               </div>
               <div class="btn-vertical">
                 <button class="btn-primary btn-w-icon btn-small">
-                  <i class="fas fa-shopping-cart"></i>Buy Now
+                  <i class="fas fa-shopping-cart"></i>Add to Cart
                 </button>
               </div>
             </div>
           </div>
           <!-- comment -->
-          <div class="card m-dw-5 shadow">
+          <div class="card elevated m-dw-5 shadow">
             <div class="card-head">
               <button class="card-cross btn-close is-medium">
                 <i class="fas fa-times"></i>
@@ -239,7 +252,7 @@
               </div>
               <div class="btn-vertical">
                 <button class="btn-primary btn-w-icon btn-small">
-                  <i class="fas fa-shopping-cart"></i>Buy Now
+                  <i class="fas fa-shopping-cart"></i>Add to Cart
                 </button>
               </div>
             </div>
@@ -248,6 +261,7 @@
         </div>
       </div>
     </section>
-    <script src="https://lucid-ui.netlify.app/components/darkmode.js"></script>
+    
+    <script src="https://lucid-ui.netlify.app/components/darkmode/darkmode.js"></script>
   </body>
 </html>

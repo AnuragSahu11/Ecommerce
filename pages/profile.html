@@ -21,18 +21,22 @@
           </a>
         </div>
         <div class="nav-hamburger">
+          <i class="dark-mode fas m-r-2 fas fa-moon"></i>
           <i class="fas fa-bars"></i>
         </div>
         <div class="nav-menu">
           <div class="nav-start">
             <a href="../index.html" class="nav-item link">Home</a>
-            <a href="" class="nav-item link">Shop Now</a>
+            <a href="productListing.html" class="nav-item link">Shop Now</a>
           </div>
           <div class="nav-end">
             <div class="form-div nav-search m-x-3">
               <i class="fas fa-search is-blue"></i>
               <input type="text" class="form-input br-3" placeholder="search" />
             </div>
+            <button class="dark-mode btn-icon is-dark nav-icons m-x-1">
+              <i class="fas is-dark fa-moon"></i>
+            </button>
             <a href="../pages/cart.html"
               ><button class="btn-icon nav-icons m-x-1">
                 <i class="fas is-dark fa-shopping-cart"></i></button
@@ -40,6 +44,16 @@
             <a href="../pages/wishlist.html">
               <button class="btn-icon nav-icons m-x-1">
                 <i class="fas is-dark fa-heart"></i>
+              </button>
+            </a>
+            <a href="logout.html" class="">
+              <button class="btn-icon nav-icons m-x-1">
+                <i class="fas is-dark fa-sign-out-alt"></i>
+              </button>
+            </a>
+            <a href="profile.html" class="">
+              <button class="btn-icon nav-icons m-x-1">
+                <i class="fa-solid is-dark fa-user"></i>
               </button>
             </a>
             <a href="../pages/sign-up.html"
@@ -57,7 +71,7 @@
     <main>
       <div class="profile grid-30-70 m-up-4 width-80 center-x">
         <div class="profile-links m-r-4">
-          <div class="textbox br-2 p-y-2 p-l-2 dk-shadow align-center flex-r-w">
+          <div class="textbox br-2 p-y-2 p-l-2 dk-shadow elevated align-center flex-r-w">
             <div class="avatar-m">
               <img src="https://picsum.photos/200" alt="profile picture" />
             </div>
@@ -66,7 +80,7 @@
               <div class="m-y-0 is-4 title">Anurag Sahu</div>
             </div>
           </div>
-          <div class="textbox br-3 m-y-2 p-y-2 flex-col width-100 li-shadow">
+          <div class="textbox br-3 m-y-2 p-y-2 flex-col width-100 elevated li-shadow">
             <div class="title semibold m-l-5 m-y-0">Manage Account</div>
             <a
               href="address.html"
@@ -89,7 +103,7 @@
           </div>
         </div>
 
-        <div class="profile-info p-l-3 p-dw-4 li-shadow br-3">
+        <div class="profile-info p-l-3 p-dw-4 elevated li-shadow br-3">
           <div class="form">
             <div class="subtitle semibold is-dark is-4">
               Your account information
@@ -151,5 +165,6 @@
         </div>
       </div>
     </main>
+    <script src="https://lucid-ui.netlify.app/components/darkmode/darkmode.js"></script>
   </body>
 </html>
