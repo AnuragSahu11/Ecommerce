@@ -2,17 +2,16 @@
   position: relative;
 }
 .filter-menu {
-  height: 100vh;
   left: 0;
   top: 0;
   position: sticky;
-  gap: 25px;
+  gap: var(--m);
 }
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 788px) {
   .filter-menu {
     position: relative;
-    height: 50px;
+    height: min-content;
+    padding-bottom: var(--xs);
   }
   .filter-menu > :nth-child(n + 2) {
     display: none;
